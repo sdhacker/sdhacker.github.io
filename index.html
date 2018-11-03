@@ -19,12 +19,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>SD Portfolio</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">	  
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	  
 	  
 	  <link rel="icon" href="img/isdn.png" type="image/x-icon"/>
@@ -86,55 +89,22 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
 
 	
-<!--Mask-->
-<div class="view intro hm-black-light mainbg" id="home">
+<!-- ====== Header ======  -->
+			<header id="home" class="header" data-stellar-background-ratio="0.5">
 
-    <!--Intro content-->
-    <div class="full-bg-img  flex-center"> 
-	   
-	   
-	   
-	   <div class="container">
-	   
-					<div class="wow fadeInUp text-center">
-                        <h1 class="display-2 mb-2 dark-grey-text wow fadeIn">Shubham Doharey</h1>
-						<h4	 class="font-up  font-bold  white-text" dat-wow-delay="0.4s">Developer || Tech Geek || Hacker</h4>
-						<h2 class=" mt-4 white-text">Welcome to my portfolio!</h2>
-						<br>
-						<br>
-						<ul>
-					<li class="smooth-scroll wow fadeIn" data-wow-delay="0.4s"><a href="#about" class="btn btn-floating btn-large wow fadeIn" data-wow-delay="0.4s" data-offset="100"><i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
-			</ul>
-					</div>	
-					
+				<!-- particles -->
+				<div id="particles-js"></div>
+				<!-- header content -->
+				<div class="caption v-middle text-center">
+					<h3>I Am ,</h3>
+					<h1>Shubham Doharey</h1>
+					<h4>I'm A <span></span> </h4>
 				</div>
-	   
-	   
-	   
-	   
-	   <!--
-        <ul>
-            <li>
-                <h1 class="display-2 mb-2 white-text wow fadeIn">I am <strong>Shubham Doharey</strong></h1>
-            <li>
-                <p class="wow fadeIn">Developer || Tech Geek || Hacker </p>
-            </li>
-            <li>
-                <a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-primary btn-lg wow fadeInLeft">Order Now!</a>
-                <a target="_blank" href="https://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-default btn-lg wow fadeInRight">Learn more</a>
-            </li>
-			<li class="smooth-scroll wow fadeIn" data-wow-delay="0.4s"><a href="#about" class="btn btn-floating btn-large wow fadeIn" data-wow-delay="0.4s" data-offset="100"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
-			</li>
-        </ul>
-		-->
-    </div>
 
-    <!--/Intro content-->
+				<div class="button-scroll" data-scrollTo="about"><span></span></div>
+			</header>
+			<!-- ====== End Header ======  -->
 	
-</div>
-<!--/.Mask-->
-
-<!--/.Mask-->
 
  
 <!-------------------------------------------- ABOUT ---------------------------------------------------------------------------------------------------------- -->
@@ -166,46 +136,47 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
                                  <br>
 								 
-                                    <p class="black-text font-up font-bold" align="justify">HTML5</p>
+								  <p class="black-text font-up font-bold" align="justify">HTML5</p>
                             <div class="progress" style="background-color: #b0b0b0;">
-                                <div class="progress-bar" role="progressbar" data-duration="2000" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" data-width="95">
-								 <span  class="popOver" data-toggle="tooltip" data-placement="top" title="95%"> </span> 
+                                <div class="progress-main" role="progressbar" data-duration="2000" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" data-width="65">
+								 <span class="progress-bar"  data-value="95%"></span>
 								</div>
                             </div>
 
                         <p class="black-text font-up font-bold mt-2" align="justify">CSS3</p>
                             <div class="progress" style="background-color: #b0b0b0;">
-                                <div class="progress-bar" role="progressbar" data-duration="2000"  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" data-width="75">
-								 <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> 
+                                <div class="progress-main" role="progressbar" data-duration="2000" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" data-width="65">
+								 <span class="progress-bar"  data-value="85%"></span>
 								</div>
                             </div>
                          
                         <p class="black-text font-up font-bold mt-2" align="justify">Bootstrap</p>
                             <div class="progress" style="background-color: #b0b0b0;">
-                                <div class="progress-bar" role="progressbar" data-duration="2000" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" data-width="85">
-								 <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> 
+                                <div class="progress-main" role="progressbar" data-duration="2000" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" data-width="65">
+								 <span class="progress-bar"  data-value="85%"></span>
 								</div>
                             </div>
                         
                         <p class="black-text font-up font-bold mt-2" align="justify">JavaScript</p>
                             <div class="progress" style="background-color: #b0b0b0;">
-                                <div class="progress-bar" role="progressbar" data-duration="2000" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" data-width="40">
-								 <span  class="popOver" data-toggle="tooltip" data-placement="top" title="60%"> </span> 
+                                <div class="progress-main" role="progressbar" data-duration="2000" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" data-width="65">
+								 <span class="progress-bar"  data-value="70%"></span>
 								</div>
                             </div>
                         
                         <p class="black-text font-up font-bold mt-2" align="justify">PHP</p>
                             <div class="progress" style="background-color: #b0b0b0;">
-                                <div class="progress-bar" role="progressbar" data-duration="2000" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" data-width="53">
-								 <span  class="popOver" data-toggle="tooltip" data-placement="top" title="65%"> </span> 
+                                <div class="progress-main" role="progressbar" data-duration="2000" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" data-width="65">
+								 <span class="progress-bar"  data-value="65%"></span>
 								</div>
                             </div>
 								<p class="black-text font-up font-bold" align="justify">ANDROID </p>
                             <div class="progress" style="background-color: #b0b0b0;">
-                                <div class="progress-bar" role="progressbar" data-duration="2000" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" data-width="95">
-								 <span  class="popOver" data-toggle="tooltip" data-placement="top" title="75%"> </span> 
+                                <div class="progress-main" role="progressbar" data-duration="2000" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" data-width="65">
+								 <span class="progress-bar"  data-value="80%"></span>
 								</div>
                             </div>
+                        
                             
                             <!-- END of Chart Wrap -->
 							<!--
@@ -286,6 +257,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
         </div>
 		</div>
 		-->
+		
+		
                         </div>
                         <!-- / col-sm-5 -->
 
@@ -935,47 +908,80 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
 
 
-<script>
-
-		
-			
-</script>
 		
 
     <!-- SCRIPTS -->
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.bundle.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <!-- Bootstrap tooltips -->
+	<script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+	    <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <!-- Bootstrap core JavaScript -->
    
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/js/mdb.min.js"></script>
 	<script type="text/javascript" src="https://cdn.rawgit.com/sdhacker/edproject/master/xyz.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+	
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+	
 	<script src="js/pt.min.js"></script>
 	<script src="js/index.js"></script>
-	<script>
-	$(function () { 
-  $('[data-toggle="tooltip"]').tooltip('hide');
-});  
-
-$(window).scroll(function() {   
-  // if($( window ).scrollTop() > 10){   scroll down abit and get the action  
-  
-  $(".progress-bar").each(function(){
-    each_bar_width = $(this).attr('aria-valuenow');
-    $(this).width(each_bar_width + '%');
-  });
-       
- //  }  
-}); 
-
-</script>
+	<script src="js/main_plugin.js"></script>
 	
+		<!-- particles.min js -->
+      	<script src='https://d33wubrfki0l68.cloudfront.net/js/cba2d73026bfe17035faa36c196cb446f76c1504/tona/js/particles.min.js'></script>
+		<!-- app js -->
+      	<script src='https://d33wubrfki0l68.cloudfront.net/js/2d17bf801a79a22fc04fd7a51f9134c00f6562c9/js/app.js'></script>
+		<!-- typed js -->
+      	<script src='https://d33wubrfki0l68.cloudfront.net/js/c99c3e5fb6c9a4c1d65cb4fb2590afc1ce86679c/typed.js'></script>
+		<!-- stellar js -->
+		<script src='https://d33wubrfki0l68.cloudfront.net/js/8fdb0d77da9a6b77397f438141d0af686517171b/js/jquery.stellar.min.js'></script>
+		<!-- isotope.pkgd.min js -->
+      	<script src='https://d33wubrfki0l68.cloudfront.net/js/5ffcda38920cf4fbcff71182c20641f2058aaa11/js/isotope.pkgd.min.js'></script>
+
+		
+		
+		<script>
+		$(function (){
+		"use strict";
+    var wind = $(window);	
+		
+		$(".caption h4 span").typed({
+        strings: ["Hacker", "Developer", "Tech Geek"],
+        loop: true,
+        startDelay: 1e3,
+        backDelay: 2e3
+    });
+    $(".button-scroll").on("click", function() {
+        var scrollTo = $(this).attr("data-scrollTo");
+        $("body, html").animate({
+            scrollTop: $("#" + scrollTo).offset().top - 60
+        }, 1e3)
+    });
+		wind.on("scroll", function() {
+        $(".progress-main .progress-bar").each(function() {
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            var myVal = $(this).attr("data-value");
+            if (bottom_of_window > bottom_of_object) {
+                $(this).css({
+                    width: myVal
+                })
+            }
+        })
+    });
+		 
+		
+});
+			</script>
 	
+
 	
  <!--Google Maps-->
  <script src="https://maps.google.com/maps/api/js?key=AIzaSyAsL_Qnar-lv0sH-7MyuOHxE4UrMUTyfIM&amp;callback=init_map"></script>   
@@ -1015,3 +1021,4 @@ new WOW().init();
 </body>
 
 </html>
+
