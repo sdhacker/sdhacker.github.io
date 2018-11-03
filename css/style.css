@@ -13,7 +13,7 @@ body,
     background-size: cover;
 }
 .mainbg{
-	background: url("http://allegiscyber.com/wp-content/uploads/2017/10/digital_background-R2.jpg")no-repeat center center fixed;
+	background-image: ('img/digital_background-R2.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
